@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+}
+
+.logo-pagina{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header{
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.segundo-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+} 
+
+.section-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.section-conteudo .img{
+    width: 300px;
+    height: 450px;
+    margin: 50px;
+    box-shadow: 0px 0px 5px rgb(187, 185, 185);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.img img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.img h3{
+    margin-bottom: 10px;
+}
+
+.mini-descricao{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
+
+.section-conteudo .img:hover{
+    transform: translateY(-7px);
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.fa{
+    border-radius: 15px;
+    opacity: 1px;
+    padding: 8px;
+    border: none;
+}
+
+button .fa:hover{
+    background-color: #7ca6b5;
+}
+
+#search {
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#options {
+    border-radius: 8px;
+    padding: 4px;
+}
+
+@media (max-width: 1024px){
+    .section-conteudo .img{
+        width: 230px;
+        height: 430px;
+    }
+}
+
+@media (max-width: 768px){
+    .segundo-header, p{
+        margin-left: 0px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .section-conteudo .img{
+        width: 250px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 320px){
+    .section-conteudo .img{
+        width: 230px;
+        height: 430px;
+    }
+}

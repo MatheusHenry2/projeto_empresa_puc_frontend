@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagens/fundo.jpeg);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .header-cadastro img{
+    width: 72px;
+    height: 72px;
+}
+
+.container form{
+    background: rgb(247, 244, 244);
+    width: 600px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    border: 0px solid #1C6EA4;
+    border-radius: 26px 26px 0px 26px;
+}
+
+.container form .header-cadastro{
+    background-image: linear-gradient(90deg, #174580 0%, #2774d7 100%);
+    padding: 30px 15px;
+}
+
+.container form h1{
+    font-family: "Oswald";
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+	margin-bottom: 55px;
+}
+
+.container form .container-inputs {
+    padding: 30px;
+}
+
+.container form .container-inputs .input{
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 78%;
+    border-radius: 5px;
+    font-size: 0.85em;
+	font-family: "Open Sans";
+	transition: 0.195s ease all;
+    text-transform: uppercase;
+    background-color: #fff;
+    
+}
+
+
+
+.container form .container-inputs .input input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 15px auto;
+    background: transparent;
+	outline: none;
+	font-size: 1em;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	border: none;
+	color: rgb(0, 0, 0);
+	font-family: "Open Sans";
+	border-bottom: 1px solid #174580;  
+    background-color: #fff;
+}
+
+
+
+.container form .btn{
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-family: "Oswald";
+    font-size:20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background:#174580;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: width 2s, height 4s; 
+}
+
+
+.container form .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container form .year{
+    padding: 20px 0;
+}
+
+
+
+
+
+
